@@ -23,3 +23,6 @@ self.actionSheet.images = @[@"logo",@"logo",@"logo",@"logo",@"logo"];
    NSLog(@"%@",indexPath);
 }];
 ```
+## Output
+![](https://github.com/soarlabs/ActionSheet/blob/master/demo-objc.gif)
+

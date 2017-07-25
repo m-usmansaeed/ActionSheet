@@ -143,6 +143,7 @@
     UILabel *itemLabel = [[UILabel alloc]initWithFrame:CGRectMake(51, 13, self.frame.size.width - 12,21)];
     [cell addSubview:itemLabel];
     UIImageView *itemImageView = [[UIImageView alloc]initWithFrame:CGRectMake(8, 6, 35,35)];
+    [itemImageView setContentMode:UIViewContentModeScaleAspectFit];
     [cell addSubview:itemImageView];
     
     if ([self.items count]) {
@@ -188,7 +189,7 @@
 
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch
 {
-    if ([touch.view.superview.superview isKindOfClass:NSClassFromString(@"ItemCell")])
+    if ([touch.view.superview.superview isKindOfClass:[UITableViewCell class]])
     {
         return NO;
     }

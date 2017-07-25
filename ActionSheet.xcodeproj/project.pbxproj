@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D626803D1F277436002BE5A3 /* demo-objc.gif in Resources */ = {isa = PBXBuildFile; fileRef = D626803C1F277436002BE5A3 /* demo-objc.gif */; };
 		D6A3903B1F27225700EE8CFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A3903A1F27225700EE8CFD /* main.m */; };
 		D6A3903E1F27225700EE8CFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A3903D1F27225700EE8CFD /* AppDelegate.m */; };
 		D6A390411F27225700EE8CFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A390401F27225700EE8CFD /* ViewController.m */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D626803C1F277436002BE5A3 /* demo-objc.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "demo-objc.gif"; sourceTree = "<group>"; };
 		D6A390361F27225700EE8CFD /* ActionSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActionSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A3903A1F27225700EE8CFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D6A3903C1F27225700EE8CFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 				D6A390371F27225700EE8CFD /* Products */,
 				D6A390501F2722EB00EE8CFD /* README.md */,
 				D6A390511F2722EB00EE8CFD /* LICENCE */,
+				D626803C1F277436002BE5A3 /* demo-objc.gif */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6A390491F27225700EE8CFD /* LaunchScreen.storyboard in Resources */,
+				D626803D1F277436002BE5A3 /* demo-objc.gif in Resources */,
 				D6A390461F27225700EE8CFD /* Assets.xcassets in Resources */,
 				D6A390531F2722EB00EE8CFD /* LICENCE in Resources */,
 				D6A390441F27225700EE8CFD /* Main.storyboard in Resources */,
